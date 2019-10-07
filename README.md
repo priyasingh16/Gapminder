@@ -1,8 +1,10 @@
 # Gapminder
 Analyzing the Gapminder dataset
+Click here to [jupyter notebook](https://nbviewer.jupyter.org/github/priyasingh16/Gapminder/blob/master/Gapminder.ipynb)
+to see the code and the visualizations. 
 
 ## Problem 1
-Take the Gapminder Test: http://forms.gapminder.org/s3/test-2018.
+Take the Gapminder Test: shttp://forms.gapminder.org/s3/test-2018.
 What score did you receive? Did any of the answers surprise you?
 Choose a question from the test, re-state it, and answer it using visualization and summarization. Provide a
 figure and any relevant output with your answer.
@@ -15,6 +17,7 @@ today have been vaccinated against some disease. Both of these are great news.
 
 #### How many of the world’s 1-year-old children today have been vaccinated against some disease?
 
+![Percent of vaccinated newborns](https://github.com/priyasingh16/Gapminder/blob/master/Plots/Vaccination_newborns.png)
 From the plot above, it can be observed that the percent of one-year-olds that are vaccinated has increased over 
 the years. It can be observed from the plot that today more than 80% of the one-year-olds are vaccinated just as 
 mentioned in the answer.
@@ -25,12 +28,14 @@ of income changes over time.
 Interpret the visualization and what you notice. Are they any notable trends and/or deviations from that
 trend?
 What caveats apply to your conclusions?
-
-From the plot above it can be observed that the income of all the continents has increased over the years.
+![Distribution of income across continents over the years separately] (https://github.com/priyasingh16/Gapminder/blob/master/Plots/income_separate_continents.png)
+From the plot above it can be observed that the income of all the continents has increased over the years separately.
+![Distribution of income across continents over the years in one] (https://github.com/priyasingh16/Gapminder/blob/master/Plots/income_continents.png)
+From the plot above it can be observed that the income of all the continents has increased over the years in one plot.
 The continent with the highest income is Europe and the one with the lowest is Africa. Asia had income higher 
 than Europe for a short period around the 1970s and then the income of Europe was the highest again.
 The income has increased slowly until 1950 and rapidly after.
-
+![Distribution of income across countries over the years separately] (https://github.com/priyasingh16/Gapminder/blob/master/Plots/income_separate_countries.png)
 In the plot above the income of every country over time is displayed and the color of the plot is the continent 
 to which the country belongs. On observing the plot for the United  Arab Emirates, we can see that the income 
 increased and reached its highest around the 1950s and then started decreasing till 2000s and then increased 
